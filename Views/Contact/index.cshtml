@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Contact page</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="~/">Home</a></li>
+                <li><a href="~/Projects">Projects</a></li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form method="post">
+                    <div id="cell5">
+                        <div class="form-div1">
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" value="" />
+                        </div>
+                        <div class="form-div1">
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" value="" />
+                        </div>
+                    </div>
+                    <div id="cell6">
+                        <div class="form-div2">
+                        <label for="name" id="message-label">Message: </label>
+                        <input type="text" name="message" value="" id="message-input"/>
+                    </div>
+                    </div>
+                    <div id="button">
+                        <label>&nbsp;</label>
+                        <input id="send" type="submit" value="Send" class="submit" />
+                    </div>
+            </form>
+        </div>
+    </body>
+</html>

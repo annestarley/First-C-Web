@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Your</title>
+        // In this context '~' refers to the wwwroot folder
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        @{
+            string LocalString = ViewBag.Example + " Good to see you!";
+        }
+        <h1>@LocalString</h1>
+    </body>
+</html>
